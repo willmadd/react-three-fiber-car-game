@@ -9,7 +9,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #272727;
+  background-color: #333333;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -30,4 +30,13 @@ body {
   font-family: helvetica neue, helvetica, arial, sans-serif;
   color: black;
   -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+.score{
+  color:white;
+  position: absolute;
+  bottom:40vh;
+  left:0;
+  /* background-color: red; */
+  /* width: 100% */
 }
